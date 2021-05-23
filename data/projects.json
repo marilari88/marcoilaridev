@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Gestserv",
+    "descrizioneBreve": "Gestione servizi Ospedalieri",
+    "descrizione":
+      "Software che in realtà è una raccoltà di applicativi interconnessi. realizzato inizialmente per gestire gli ordini e le scorte di reparto della teleria piana (coperte, lenzuola, cuscini) si è in seguito allargato fino a diventare una vera e propria piattaforma nella quale operano diverse figure professionali di Ospedali e altre strutture sanitarie in base un dettagliato sistema di permessi.\nGestserv si compone di Gesione Pasti, Gestione Teleria Piana, Gestione richieste di Assistenza (ticketing software), Gestione Inventari, Protocollo e Calendario Eventi condiviso",
+    "stack": [ "PHP" , "Mysql" , "Jquery" , "Apache" ],
+    "immagineAnteprima": "gestserv.png",
+    "statoProgetto": "in produzione in 4 ospedali e 1 RSA",
+    "annoPrimoRilascio": "2011",
+    "url": "https://gestserv.app"
+  },
+  {
+    "nome": "Theplanning.app",
+    "descrizioneBreve":
+      "Pianificazione delle attività di terapisti della riabilitazione",
+    "descrizione":
+      "Questo software è un supporto alla pianificazione delle attività svolte da un equipe di terapisti della riabilitazione.\nLe singole prestazioni sono organizzate all'interno di calendari con viste settimanali.Ogni prestazione prevede la possibilità di indicare la strumentazione utilizzata e gli ambienti impegnati predisponendo per ognuno un apposito planning. Il coordinatore e i singoli terapisti hanno la possibilità di gestire assenze e ore di permesso. Refactoring del codice in corso",
+    "stack": [ "PHP", "Mysql", "VanillaJS", "Apache" ],
+    "immagineAnteprima": "tmeplanning.png",
+    "statoProgetto": "in produzione in 1 RSA",
+    "annoPrimoRilascio": "2013"
+  },
+  {
+    "nome": "timesheet.app",
+    "descrizioneBreve": "Tracciamento delle ore di lavoro",
+    "descrizione":
+      "PWA nata con la volontà di misurarsi con lo stack tecnologico MERN basato su javascript. Mobile first design progettato con Figma. Autenticazione con SSO Google. L'applicazione registra e gestisce le timbratura in entrata e in uscita del singolo lavoratore offrendo un resoconto per ogni contratto di lavoro. In programma la realizzazione della sezione per il datore di lavoro, il quale potrà monitorare il tempo di lavoro del prestatore sia che si trovi in presenza che in remote working.",
+    "stack": [ "Node.js" ,  "MongoDB" ,  "React" ],
+    "immagineAnteprima": "timesheet.app",
+    "statoProgetto": "in corso di realizzazione",
+    "url": "https://timesheet.app"
+  },
+  {
+    "nome": "Agente link",
+    "descrizioneBreve": "Gestione ordini e fatture per Agenti di commercio.",
+    "descrizione":
+      "Una delle prime Web App. Realizzata in Php per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di palmari e altri dispositivi mobili. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
+    "stack": [ "PHP", "Mysql", "VanillaJs", "Nginx" ],
+    "immagineAnteprima": "agentelink.png",
+    "statoProgetto": "in produzione da 15 anni",
+    "annoPrimoRilascio": "2006"
+  }
+]
