@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import * as styles from "../styles/logo.module.css"
 
 function Logo({ title, subTitle }) {
+  console.log(styles)
   return (
-    <div className="logo">
-      <div className="logo__title">{title}</div>
-      <div className="logo__subtitle">{subTitle}</div>
+    <div className={styles.logo}>
+      <div className={styles.title}>{title}</div>
+      <div className={styles.subtitle}>{subTitle}</div>
     </div>
   )
 }
