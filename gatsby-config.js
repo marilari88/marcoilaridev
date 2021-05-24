@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Marco Ilari`,
-    subtitle: `Fullstack DEV`,
+    subTitle: `Fullstack DEV`,
     description: `I miei progetti, i miei appunti e contatti`,
     email: `marilari88@gmail.com`,
     author: `@marcoilari.dev`,

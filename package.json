@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/squada-one": "^4.3.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
@@ -20,6 +21,11 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-webpack": "^3.12.2",
+    "gatsby-plugin-eslint": "^3.0.0",
     "prettier": "2.2.1"
   },
   "keywords": [
