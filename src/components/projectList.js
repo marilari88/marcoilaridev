@@ -22,8 +22,8 @@ function ProjectList() {
   `)
   return (
     <div>
-      {data.allProjectsJson.edges.map((project, item) => (
-        <Project key={item} project={project} />
+      {data.allProjectsJson.edges.map(({ node }, item) => (
+        <Project key={item} project={node} />
       ))}
     </div>
   )
