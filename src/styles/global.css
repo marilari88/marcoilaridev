@@ -12,7 +12,7 @@ a{
     font-family: "Squada One";
     display: block;
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--primario);
     background-color: var(--secondario);
     cursor: pointer;
