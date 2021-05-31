@@ -3,12 +3,12 @@
     "nome": "Gestserv",
     "descrizioneBreve": "Gestione servizi Ospedalieri",
     "descrizione":
-      "Software che in realtà è una raccoltà di applicativi interconnessi. realizzato inizialmente per gestire gli ordini e le scorte di reparto della teleria piana (coperte, lenzuola, cuscini) si è in seguito allargato fino a diventare una vera e propria piattaforma nella quale operano diverse figure professionali di Ospedali e altre strutture sanitarie in base un dettagliato sistema di permessi.\nGestserv si compone di Gesione Pasti, Gestione Teleria Piana, Gestione richieste di Assistenza (ticketing software), Gestione Inventari, Protocollo e Calendario Eventi condiviso",
+      "Il software è una raccoltà di applicativi con una base dati comune. Realizzato inizialmente per gestire gli ordini e le scorte di reparto della teleria piana (coperte, lenzuola, cuscini) si è in seguito allargato fino a diventare una vera e propria piattaforma nella quale operano diverse figure professionali di Ospedali e altre strutture sanitarie sulla base un sistema centralizzato di permessi.\nGestserv si compone di Gesione Pasti, Gestione Teleria Piana, Gestione richieste di Assistenza (ticketing software), Gestione Inventari, Protocollo e Calendario Eventi condiviso. Per il test in demo accedere ccon l'utente infermiere (passowrd: infermiere)",
     "stack": [ "PHP" , "Mysql" , "Jquery" , "Apache" ],
     "immagineAnteprima": "gestserv.png",
     "statoProgetto": "in produzione in 4 ospedali e 1 RSA",
     "annoPrimoRilascio": "2011",
-    "url": "https://gestserv.app"
+    "url": "http://159.69.26.192/gestserv"
   },
   {
     "nome": "Theplanning.app",
@@ -29,13 +29,13 @@
     "stack": [ "Node.js" ,  "MongoDB" ,  "React" ],
     "immagineAnteprima": "timesheet.app",
     "statoProgetto": "in corso di realizzazione",
-    "url": "https://timesheet.app"
+    "url": "https://ore-lavorate-frontend.vercel.app/"
   },
   {
     "nome": "Agente link",
     "descrizioneBreve": "Gestione ordini e fatture per Agenti di commercio.",
     "descrizione":
-      "Una delle prime Web App. Realizzata in Php per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di palmari e altri dispositivi mobili. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
+      "Una delle mie prime Web App. Realizzata in PHP per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di palmari e altri dispositivi mobili. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
     "stack": [ "PHP", "Mysql", "VanillaJs", "Nginx" ],
     "immagineAnteprima": "agentelink.png",
     "statoProgetto": "in produzione da 15 anni",
