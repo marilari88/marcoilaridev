@@ -24,7 +24,7 @@ function Project({ project }) {
         })}
       </div>
       {project.url && (
-        <a href="{project.url}">
+        <a href={project.url} target="_blank" rel="noreferrer">
           <button className={`pulsante`}>DEMO</button>
         </a>
       )}
