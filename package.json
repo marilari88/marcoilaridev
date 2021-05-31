@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/open-sans": "^4.4.2",
     "@fontsource/squada-one": "^4.3.0",
     "gatsby": "^3.5.1",
     "gatsby-plugin-gatsby-cloud": "^2.5",

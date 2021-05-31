@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import Project from "./project"
+import * as styles from "../styles/project.module.css"
 
 function ProjectList() {
   const data = useStaticQuery(graphql`
@@ -15,13 +16,14 @@ function ProjectList() {
             immagineAnteprima
             statoProgetto
             url
+            stack
           }
         }
       }
     }
   `)
   return (
-    <div>
+    <div className={styles.projectList}>
       {data.allProjectsJson.edges.map(({ node }, item) => (
         <Project key={item} project={node} />
       ))}

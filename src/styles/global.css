@@ -3,3 +3,28 @@
     --secondario:#D7A700;
     --terziario:#6B5400;
 }
+
+a{
+    text-decoration: none;
+}
+
+.pulsante{
+    font-family: "Squada One";
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: var(--primario);
+    background-color: var(--secondario);
+    cursor: pointer;
+    border-radius:4px;
+    margin: 0.75rem 0;
+    border: none;
+}
+
+.pulsante:hover{
+    color: var(--terziario);
+}
+
+.etichettaProgetto{
+    font-weight: 800;
+};
