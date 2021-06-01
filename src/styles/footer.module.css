@@ -6,4 +6,7 @@
     padding: 1rem;
     font-family: "Squada One";
     font-size: 1.5rem;
+    background-color: var(--secondario);
+    color: white;
+    bottom: 0;
 }

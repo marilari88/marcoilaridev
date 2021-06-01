@@ -1,7 +1,13 @@
 :root {
-    --primario:#000000;
-    --secondario:#D7A700;
-    --terziario:#6B5400;
+    --primario:#264653;
+    --secondario:#2a9d8f;
+    --terziario:#e76f51;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 a{
@@ -13,16 +19,18 @@ a{
     display: block;
     padding: 0.5rem;
     font-size: 1.25rem;
-    color: var(--primario);
+    /* color: var(--primario); */
+    color: white;
     background-color: var(--secondario);
     cursor: pointer;
     border-radius:4px;
     margin: 0.75rem 0;
     border: none;
+    transition: 0.5s background-color;
 }
 
 .pulsante:hover{
-    color: var(--terziario);
+    background-color: var(--terziario);
 }
 
 .etichettaProgetto{

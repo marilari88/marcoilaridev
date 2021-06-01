@@ -17,4 +17,19 @@
     font-size: 2rem;
     line-height: 2rem;
     font-family: "Squada one";
+    position: relative;
 }
+
+.subtitle:before{
+    content: "Fullstack Developer";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    height: 60%;
+    color: var(--primario);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: "Squada one";
+}
+
