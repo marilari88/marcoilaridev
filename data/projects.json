@@ -34,7 +34,7 @@
     "nome": "Agente link",
     "descrizioneBreve": "Gestione ordini e fatture per Agenti di commercio.",
     "descrizione":
-      "Una delle mie prime Web App. Realizzata in PHP per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di palmari e altri dispositivi mobili. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
+      "Una delle mie prime Web App. Realizzata in PHP per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di pc e ipad. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
     "stack": [ "PHP", "Mysql", "VanillaJs", "Nginx" ],
     "immagineAnteprima": "agentelink.png",
     "statoProgetto": "in produzione da 15 anni",
@@ -45,7 +45,7 @@
     "descrizioneBreve": "Sito personale",
     "descrizione":
       "Sito statico nel quale presento i miei progetti. In programma la realizzazione di una sezione nella quale poter raccogliere e pubblicare i miei appunti. Realizzato con Gatsby e pubblicato su netflify. I dati sono raccolti in file JSON",
-    "stack": [ "Gastby"],
+    "stack": [ "Gastby","graphql"],
     "immagineAnteprima": "marcoilaridev.png",
     "statoProgetto": "pubblicato nel 2021",
     "annoPrimoRilascio": "2021"
