@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "../styles/project.module.css"
-import PropTypes from "prop-types"
+import propTypes from "prop-types"
 
 function Project({ project }) {
   return (
@@ -32,15 +32,15 @@ function Project({ project }) {
   )
 }
 
-Project.PropTypes = {
-  project: PropTypes.shape({
-    nome: PropTypes.string.isRequired,
-    descrizioneBreve: PropTypes.string,
-    descrizione: PropTypes.string,
-    url: PropTypes.string,
-    annoPrimoRilascio: PropTypes.string,
-    stack: PropTypes.arrayOf(PropTypes.string),
-    statoProgetto: PropTypes.string,
+Project.propTypes = {
+  project: propTypes.shape({
+    nome: propTypes.string.isRequired,
+    descrizioneBreve: propTypes.string,
+    descrizione: propTypes.string,
+    url: propTypes.string,
+    annoPrimoRilascio: propTypes.string,
+    stack: propTypes.arrayOf(propTypes.string),
+    statoProgetto: propTypes.string,
   }),
 }
 
