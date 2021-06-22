@@ -7,8 +7,7 @@
     "stack": [ "PHP" , "Mysql" , "Jquery" , "Apache" ],
     "immagineAnteprima": "gestserv.png",
     "statoProgetto": "in produzione in 4 ospedali e 1 RSA",
-    "annoPrimoRilascio": "2011",
-    "url": "http://159.69.26.192/gestserv"
+    "annoPrimoRilascio": "2011"
   },
   {
     "nome": "Theplanning.app",
@@ -40,5 +39,16 @@
     "immagineAnteprima": "agentelink.png",
     "statoProgetto": "in produzione da 15 anni",
     "annoPrimoRilascio": "2006"
+  },
+  {
+    "nome": "marcoilari.dev",
+    "descrizioneBreve": "Sito personale",
+    "descrizione":
+      "Sito statico nel quale presento i miei progetti. In programma la realizzazione di una sezione nella quale poter raccogliere e pubblicare i miei appunti. Realizzato con Gatsby e pubblicato su netflify. I dati sono raccolti in file JSON",
+    "stack": [ "Gastby"],
+    "immagineAnteprima": "marcoilaridev.png",
+    "statoProgetto": "pubblicato nel 2021",
+    "annoPrimoRilascio": "2021"
   }
+
 ]
