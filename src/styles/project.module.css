@@ -2,16 +2,22 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    max-width: 1200px;
     flex-wrap: wrap;
     align-items: top;
-    justify-content: center;
-    margin:2rem 0;
+    justify-content: flex-start;
+    margin:2em 0;
 }
 .project{
-    margin: 2rem;
-    max-width: 500px;
-    width: 100%;
+    padding: 2em;
+    width: 100%
 }
+@media(min-width:1000px){
+    .project{
+        width: 50%;
+    }
+}
+
 .nome{
     font-family: "Squada One";
     font-size: 2rem;
@@ -21,18 +27,18 @@
 .descrizione-breve{
     font-family: "Squada One";
     font-size:1.5rem;
-    margin: 1rem 0;
+    margin: 1em 0;
     color:var(--primario);
 }
 .descrizione{
     font-family: "Open Sans";
     text-align: justify;
-    margin: 1rem 0;
-    line-height: 1.75rem;
+    margin: 1em 0;
+    line-height: 1.75em;
     font-size: 1rem;
 }
 .stato{
-    line-height: 1.75rem;
+    line-height: 1.75em;
     font-size: 1rem;
     color: var(--secondario);
     font-weight: 800;
@@ -40,18 +46,18 @@
 
 }
 .stack{
-    margin:1rem 0;
+    margin:1em 0;
     display: flex;
     flex-direction: row;
     color: var(--secondario);
 }
 .stack div{
-    margin:0.5rem 0.5rem 0.5rem 0;
+    margin:0.5em 0.5em 0.5em 0;
     font-family: "Squada One";
     font-size: 1.25rem;
 }
 
 .demo{
-margin:1rem 0;
+margin:1em 0;
 }
 

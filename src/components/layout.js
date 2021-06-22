@@ -21,19 +21,17 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="container">
       <Header
         siteTitle={data.site.siteMetadata.title}
         siteSubTitle={data.site.siteMetadata.subTitle}
       />
       <Navigation />
-      <div>
-        <main>{children}</main>
-        <footer className={styles.footer}>
-          <div className="email">{data.site.siteMetadata.email}</div>
-        </footer>
-      </div>
-    </>
+      <main>{children}</main>
+      <footer className={styles.footer}>
+        <div className="email">{data.site.siteMetadata.email}</div>
+      </footer>
+    </div>
   )
 }
 
