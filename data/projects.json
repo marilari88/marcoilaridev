@@ -3,8 +3,8 @@
     "nome": "Gestserv",
     "descrizioneBreve": "Gestione servizi Ospedalieri",
     "descrizione":
-      "Il software è una raccoltà di applicativi con una base dati comune. Realizzato inizialmente per gestire gli ordini e le scorte di reparto della teleria piana (coperte, lenzuola, cuscini) si è in seguito allargato fino a diventare una vera e propria piattaforma nella quale operano diverse figure professionali di Ospedali e altre strutture sanitarie sulla base un sistema centralizzato di permessi.\nGestserv si compone di Gesione Pasti, Gestione Teleria Piana, Gestione richieste di Assistenza (ticketing software), Gestione Inventari, Protocollo e Calendario Eventi condiviso. Per il test in demo accedere ccon l'utente infermiere (passowrd: infermiere)",
-    "stack": [ "PHP" , "Mysql" , "Jquery" , "Apache" ],
+      "Raccoltà di applicativi con unico database MySQL. Realizzato inizialmente per gestire gli ordini e le scorte di reparto della teleria piana (coperte, lenzuola, cuscini) si è in seguito ampliato fino a diventare una vera e propria piattaforma nella quale operano diverse figure professionali di Ospedali e altre strutture sanitarie sulla base un sistema centralizzato di permessi.\nGestserv si compone di Gestione Pasti, Gestione Teleria Piana, Gestione richieste di Assistenza (ticketing software), Gestione Inventari, Protocollo e Calendario Eventi condiviso",
+    "stack": [ "PHP" , "MySQL" , "Jquery" , "Apache" ],
     "immagineAnteprima": "gestserv.png",
     "statoProgetto": "in produzione in 4 ospedali e 1 RSA",
     "annoPrimoRilascio": "2011"
@@ -15,7 +15,7 @@
       "Pianificazione delle attività di terapisti della riabilitazione",
     "descrizione":
       "Questo software è un supporto alla pianificazione delle attività svolte da un equipe di terapisti della riabilitazione.\nLe singole prestazioni sono organizzate all'interno di calendari con viste settimanali.Ogni prestazione prevede la possibilità di indicare la strumentazione utilizzata e gli ambienti impegnati predisponendo per ognuno un apposito planning. Il coordinatore e i singoli terapisti hanno la possibilità di gestire assenze e ore di permesso. Refactoring del codice in corso",
-    "stack": [ "PHP", "Mysql", "VanillaJS", "Apache" ],
+    "stack": [ "PHP", "MySQL", "VanillaJS", "Apache" ],
     "immagineAnteprima": "tmeplanning.png",
     "statoProgetto": "in produzione in 1 RSA",
     "annoPrimoRilascio": "2013"
@@ -35,7 +35,7 @@
     "descrizioneBreve": "Gestione ordini e fatture per Agenti di commercio.",
     "descrizione":
       "Una delle mie prime Web App. Realizzata in PHP per supportare il lavoro di un agente di commercio che, in seguito all'adozione di questa applicazione, é riuscito ad abbandonare tabulati cartacei, fax e fogli excel a favore di pc e ipad. L'applicativo permette la registrazione e l'invio di ordini, di distinte e di fatture. Per quest'ultime è prevista l'esportazione in formato XML conforme al tracciato definito dalla recente normativa sulla fatturazione elettronica. I dati raccolti vengono elaborati in una sezione di analisi dell'andamento delle vendite. Il codice necessità di refactoring",
-    "stack": [ "PHP", "Mysql", "VanillaJs", "Nginx" ],
+    "stack": [ "PHP", "MySQL", "VanillaJs", "Nginx" ],
     "immagineAnteprima": "agentelink.png",
     "statoProgetto": "in produzione da 15 anni",
     "annoPrimoRilascio": "2006"
