@@ -1,5 +1,15 @@
 [
   {
+    "nome": "timesheet.app",
+    "descrizioneBreve": "Tracciamento delle ore di lavoro",
+    "descrizione":
+      "PWA nata con la volontà di misurarsi con lo stack tecnologico MERN basato su javascript. Mobile first design progettato con Figma. Autenticazione con SSO Google. L'applicazione registra e gestisce le timbratura in entrata e in uscita del singolo lavoratore offrendo un resoconto per ogni contratto di lavoro. In programma la realizzazione della sezione per il datore di lavoro, il quale potrà monitorare il tempo di lavoro del prestatore sia che si trovi in presenza che in remote working.",
+    "stack": [ "Node.js" ,  "MongoDB" ,  "React" ],
+    "immagineAnteprima": "timesheet.app",
+    "statoProgetto": "in corso di realizzazione",
+    "url": "https://ore-lavorate-frontend.vercel.app/"
+  },
+  {
     "nome": "Gestserv",
     "descrizioneBreve": "Gestione servizi Ospedalieri",
     "descrizione":
@@ -14,21 +24,11 @@
     "descrizioneBreve":
       "Pianificazione delle attività di terapisti della riabilitazione",
     "descrizione":
-      "Questo software è un supporto alla pianificazione delle attività svolte da un equipe di terapisti della riabilitazione.\nLe singole prestazioni sono organizzate all'interno di calendari con viste settimanali.Ogni prestazione prevede la possibilità di indicare la strumentazione utilizzata e gli ambienti impegnati predisponendo per ognuno un apposito planning. Il coordinatore e i singoli terapisti hanno la possibilità di gestire assenze e ore di permesso. Refactoring del codice in corso",
+      "Supporto alla pianificazione delle attività svolte da un equipe di terapisti della riabilitazione.\nLe singole prestazioni sono organizzate all'interno di calendari con viste settimanali.Ogni prestazione prevede la possibilità di indicare la strumentazione utilizzata e gli ambienti impegnati predisponendo per ognuno un apposito planning. Il coordinatore e i singoli terapisti hanno la possibilità di gestire assenze e ore di permesso. Refactoring del codice in corso",
     "stack": [ "PHP", "Mysql", "VanillaJS", "Apache" ],
     "immagineAnteprima": "tmeplanning.png",
     "statoProgetto": "in produzione in 1 RSA",
     "annoPrimoRilascio": "2013"
-  },
-  {
-    "nome": "timesheet.app",
-    "descrizioneBreve": "Tracciamento delle ore di lavoro",
-    "descrizione":
-      "PWA nata con la volontà di misurarsi con lo stack tecnologico MERN basato su javascript. Mobile first design progettato con Figma. Autenticazione con SSO Google. L'applicazione registra e gestisce le timbratura in entrata e in uscita del singolo lavoratore offrendo un resoconto per ogni contratto di lavoro. In programma la realizzazione della sezione per il datore di lavoro, il quale potrà monitorare il tempo di lavoro del prestatore sia che si trovi in presenza che in remote working.",
-    "stack": [ "Node.js" ,  "MongoDB" ,  "React" ],
-    "immagineAnteprima": "timesheet.app",
-    "statoProgetto": "in corso di realizzazione",
-    "url": "https://ore-lavorate-frontend.vercel.app/"
   },
   {
     "nome": "Agente link",
