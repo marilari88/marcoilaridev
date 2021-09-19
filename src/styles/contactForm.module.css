@@ -1,0 +1,8 @@
+.contactForm {
+  background-color: var(--secondario);
+}
+
+.formRow {
+  color: var(--primario);
+  padding: 1em 1em;
+}
