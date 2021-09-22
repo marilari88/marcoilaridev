@@ -47,9 +47,11 @@ function ContactForm() {
       name="contact"
       className={contactForm}
       data-netlify="true"
+      data-netlify-honeypot="bot-field"
       method="POST"
       onSubmit={handleSubmit}
     >
+      <input type="hidden" name="form-name" value="contact" />
       <div className={formRow}>
         <label htmlFor="nome">Il tuo nome</label>
         <input
