@@ -33,8 +33,19 @@ function ContactForm() {
 
     //TODO - Perfezionare la validazione
 
-    document.getElementById("contactForm").submit()
-    setIsSubmitted(true)
+    const form = document.getElementById("contactForm").submit()
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        "name": nomeInput.value,
+        "email": emailInput.value,
+        "telefono": telefonoInput.value,
+        "messaggio": messaggioInput.value,
+      }),
+    }).then(()=>setIsSubmitted(true))
+    
   }
 
   if (isSubmitted) {
@@ -47,8 +58,6 @@ function ContactForm() {
       name="contact"
       className={contactForm}
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      method="POST"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
