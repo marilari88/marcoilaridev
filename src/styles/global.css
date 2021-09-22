@@ -1,57 +1,57 @@
 :root {
-    --primario:#264653;
-    --secondario:#2a9d8f;
-    --terziario:#e76f51;
+  --primario: #264653;
+  --secondario: #2a9d8f;
+  --terziario: #e76f51;
 }
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    min-height:100vh;
-}
-
-a{
-    text-decoration: none;
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
 }
 
-main{
-    flex:1;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+a {
+  text-decoration: none;
 }
 
-.container{
-    min-height:100vh;
-    display: flex;
-    flex-direction: column;
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.pulsante{
-    font-family: "Squada One";
-    display: block;
-    padding: 0.5rem;
-    font-size: 1.25rem;
-    /* color: var(--primario); */
-    color: white;
-    background-color: var(--secondario);
-    cursor: pointer;
-    border-radius:4px;
-    margin: 0.75rem 0;
-    border: none;
-    transition: 0.5s background-color;
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.pulsante:hover{
-    background-color: var(--terziario);
+.pulsante {
+  font-family: "Squada One";
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  /* color: var(--primario); */
+  color: white;
+  background-color: var(--secondario);
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0.75rem 0;
+  border: none;
+  transition: 0.5s background-color;
 }
 
-.etichettaProgetto{
-    font-weight: 800;
-};
+.pulsante:hover {
+  background-color: var(--terziario);
+}
+
+.etichettaProgetto {
+  font-weight: 800;
+}

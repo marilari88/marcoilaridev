@@ -1,35 +1,33 @@
-.logo{
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title{
-    color: var(--primario);
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    font-family: "Squada one";
+.title {
+  color: var(--primario);
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-family: "Squada one";
 }
 
-.subtitle{
-    color: var(--secondario);
-    font-size: 2rem;
-    line-height: 2rem;
-    font-family: "Squada one";
-    position: relative;
+.subtitle {
+  color: var(--secondario);
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "Squada one";
+  position: relative;
 }
 
-.subtitle:before{
-    content: "Fullstack Developer";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-    height: 60%;
-    color: var(--primario);
-    font-size: 2rem;
-    line-height: 2rem;
-    font-family: "Squada one";
+.subtitle:before {
+  content: "Web Developer";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  height: 60%;
+  color: var(--primario);
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "Squada one";
 }
-
