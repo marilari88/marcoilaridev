@@ -9,7 +9,8 @@ function ContactForm() {
   const [error, setError] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
 
-  const handleSubmit = () => {
+  const handleSubmit = e => {
+    e.preventDefault()
     const nomeInput = document.getElementById("nome")
     const emailInput = document.getElementById("email")
     const telefonoInput = document.getElementById("telefono")
@@ -32,6 +33,7 @@ function ContactForm() {
 
     //TODO - Perfezionare la validazione
 
+    e.target.submit()
     setIsSubmitted(true)
   }
 
@@ -41,9 +43,10 @@ function ContactForm() {
 
   return (
     <form
+      name="contacts"
       className={contactForm}
       data-netlify="true"
-      onSubmit={() => setIsSubmitted(true)}
+      onSubmit={handleSubmit}
     >
       <div className={formRow}>
         <label htmlFor="nome">Il tuo nome</label>
@@ -53,7 +56,6 @@ function ContactForm() {
           id="nome"
           placeholder="Cognome Nome"
           maxLength="40"
-          required
         />
       </div>
       <div className={formRow}>
@@ -64,7 +66,6 @@ function ContactForm() {
           id="email"
           placeholder="Indirizzo Email"
           maxLength="70"
-          required
         />
       </div>
       <div className={formRow}>
@@ -79,16 +80,11 @@ function ContactForm() {
       </div>
       <div className={formRow}>
         <label htmlFor="testo">Messaggio</label>
-        <textarea name="testo" id="testo" placeholder="Messaggio" required />
+        <textarea name="testo" id="testo" placeholder="Messaggio" />
       </div>
       {error && <div className={errorMessage}>{error}</div>}
       <div className={formRow}>
-        <input
-          type="submit"
-          className="pulsante"
-          onClick={handleSubmit}
-          value="Invia"
-        />
+        <input type="submit" className="pulsante" value="Invia" />
       </div>
     </form>
   )
