@@ -47,7 +47,10 @@ function ContactForm() {
           <label htmlFor="testo">Messaggio</label>
           <textarea name="testo" id="testo" placeholder="Messaggio" required />
         </div>
-        <input type="submit" className="pulsante" value="Invia" />
+
+        <div className={formRow}>
+          <input type="submit" className="pulsante" value="Invia" />
+        </div>
       </form>
     </div>
   )

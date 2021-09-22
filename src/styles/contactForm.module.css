@@ -1,8 +1,16 @@
 .contactForm {
-  background-color: var(--secondario);
+  margin: 1em 1em;
 }
 
 .formRow {
-  color: var(--primario);
+  font-family: "Squada One";
   padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.formRow label {
+  font-size: 1.3rem;
+  color: var(--secondario);
+  margin: 0.5em 0;
 }
