@@ -1,0 +1,28 @@
+.contactForm {
+  margin: 1em 1em;
+  width: 100%;
+  max-width: 400px;
+}
+
+.formRow {
+  font-family: "Squada One";
+  padding: 0.3em 0em;
+  display: flex;
+  flex-direction: column;
+}
+
+.formRow label {
+  font-size: 1.3rem;
+  color: var(--secondario);
+  margin: 0.5em 0;
+}
+
+.formRow .pulsante {
+  width: 100px;
+}
+
+.errorMessage {
+  padding: 0.3em 0em;
+  font-family: "Squada One";
+  color: var(--terziario);
+}
