@@ -7,7 +7,6 @@ const Contacts = () => {
   return (
     <Layout>
       <Seo title="I miei contatti" />
-      <h1>A message in a bottle</h1>
       <ContactForm />
     </Layout>
   )

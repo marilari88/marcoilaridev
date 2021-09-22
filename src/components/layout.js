@@ -5,8 +5,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Navigation from "./navigation"
 
-import * as styles from "../styles/footer.module.css"
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -28,9 +26,6 @@ const Layout = ({ children }) => {
       />
       <Navigation />
       <main>{children}</main>
-      <footer className={styles.footer}>
-        <div className="email">{data.site.siteMetadata.email}</div>
-      </footer>
     </div>
   )
 }
