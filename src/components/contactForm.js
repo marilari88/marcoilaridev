@@ -33,7 +33,7 @@ function ContactForm() {
 
     //TODO - Perfezionare la validazione
 
-    e.target.submit()
+    document.getElementById("contactForm").submit()
     setIsSubmitted(true)
   }
 
@@ -43,7 +43,8 @@ function ContactForm() {
 
   return (
     <form
-      name="contacts"
+      id="contactForm"
+      name="contact"
       className={contactForm}
       data-netlify="true"
       onSubmit={handleSubmit}
