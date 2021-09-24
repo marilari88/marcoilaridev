@@ -34,17 +34,12 @@ function ContactForm() {
     //TODO - Perfezionare la validazione
 
     const form = document.getElementById("contactForm")
+    let formData = new FormData(form)
 
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        name: nomeInput.value,
-        email: emailInput.value,
-        telefono: telefonoInput.value,
-        messaggio: messaggioInput.value,
-      }),
+      body: new URLSearchParams(formData).toString(),
     }).then(() => setIsSubmitted(true))
   }
 
@@ -58,7 +53,7 @@ function ContactForm() {
       name="contact"
       className={contactForm}
       data-netlify="true"
-      action="/feedback"
+      action="#"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
