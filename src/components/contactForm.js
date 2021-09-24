@@ -33,19 +33,19 @@ function ContactForm() {
 
     //TODO - Perfezionare la validazione
 
-    const form = document.getElementById("contactForm").submit()
+    const form = document.getElementById("contactForm")
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": form.getAttribute("name"),
-        "name": nomeInput.value,
-        "email": emailInput.value,
-        "telefono": telefonoInput.value,
-        "messaggio": messaggioInput.value,
+        name: nomeInput.value,
+        email: emailInput.value,
+        telefono: telefonoInput.value,
+        messaggio: messaggioInput.value,
       }),
-    }).then(()=>setIsSubmitted(true))
-    
+    }).then(() => setIsSubmitted(true))
   }
 
   if (isSubmitted) {
@@ -58,6 +58,7 @@ function ContactForm() {
       name="contact"
       className={contactForm}
       data-netlify="true"
+      action="/feedback"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
