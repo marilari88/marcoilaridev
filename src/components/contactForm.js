@@ -21,10 +21,10 @@ function ContactForm() {
 
   const handleSubmit = e => {
     e.preventDefault()
-    const nomeInput = document.getElementById("nome").value
-    const emailInput = document.getElementById("email").value
-    const telefonoInput = document.getElementById("telefono").value
-    const messaggioInput = document.getElementById("testo").value
+    const nomeInput = document.getElementById("nome")
+    const emailInput = document.getElementById("email")
+    const telefonoInput = document.getElementById("telefono")
+    const messaggioInput = document.getElementById("testo")
 
     if (nomeInput.value.trim() === "") {
       setError("🛑 Inserire il nome")
