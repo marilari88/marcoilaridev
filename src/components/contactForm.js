@@ -36,11 +36,16 @@ function ContactForm() {
     const form = document.getElementById("contactForm")
     let formData = new FormData(form)
 
+    console.log(formData)
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
-    }).then(() => setIsSubmitted(true))
+    }).then(response => {
+      console.log(response)
+      setIsSubmitted(true)
+    })
   }
 
   if (isSubmitted) {
