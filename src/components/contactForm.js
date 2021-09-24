@@ -21,6 +21,10 @@ function ContactForm() {
 
   const handleSubmit = e => {
     e.preventDefault()
+    const nomeInput = document.getElementById("nome").value
+    const emailInput = document.getElementById("email").value
+    const telefonoInput = document.getElementById("telefono").value
+    const messaggioInput = document.getElementById("testo").value
 
     if (nomeInput.value.trim() === "") {
       setError("🛑 Inserire il nome")
@@ -48,10 +52,10 @@ function ContactForm() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": form.getAttribute("name"),
-        nome: document.getElementById("nome").value,
-        email: document.getElementById("email").value,
-        telefono: document.getElementById("telefono").value,
-        testo: document.getElementById("testo").value,
+        nome: nomeInput.value,
+        email: emailInput.value,
+        telefono: telefonoInput.value,
+        testo: messaggioInput.value,
       }),
     }).then(response => {
       console.log(response)
