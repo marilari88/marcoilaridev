@@ -8,13 +8,19 @@ import {
 function ContactForm() {
   const [error, setError] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [telefono, setTelefono] = useState("")
+  const [messaggio, setMessamessaggio] = useState("")
+
+  const encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
 
   const handleSubmit = e => {
     e.preventDefault()
-    const nomeInput = document.getElementById("nome")
-    const emailInput = document.getElementById("email")
-    const telefonoInput = document.getElementById("telefono")
-    const messaggioInput = document.getElementById("testo")
 
     if (nomeInput.value.trim() === "") {
       setError("🛑 Inserire il nome")
@@ -34,14 +40,19 @@ function ContactForm() {
     //TODO - Perfezionare la validazione
 
     const form = document.getElementById("contactForm")
-    let formData = new FormData(form)
 
     console.log(formData)
 
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        nome: document.getElementById("nome").value,
+        email: document.getElementById("email").value,
+        telefono: document.getElementById("telefono").value,
+        testo: document.getElementById("testo").value,
+      }),
     }).then(response => {
       console.log(response)
       setIsSubmitted(true)
